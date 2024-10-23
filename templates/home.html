@@ -1,0 +1,124 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Kumar Reddy</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/img.png' %}" alt="Profile Picture" width="150" height="150">
+                    <hr>
+                    <h4 class="animate__animated animate__fadeInUp">Hello, I'm Arun Kumar Reddy!</h4>
+                    <p class="animate__animated animate__fadeInUp">I am a passionate Python Full Stack Developer, eager to apply my skills in real-world web development and problem-solving.</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4 class="animate__animated animate__fadeInUp">My Journey as a Developer</h4>
+                    <hr>
+                    <p class="animate__animated animate__fadeInUp">I recently completed an intensive internship in Python Full Stack development, focusing on Django and front-end technologies like HTML, CSS, and JavaScript. I also gained experience working with MySQL for database management.</p>
+                    <p class="animate__animated animate__fadeInUp">During my internship, I contributed to several projects, including building responsive interfaces and implementing back-end features to enhance full-stack applications.</p>
+
+                    <!-- Social Links -->
+<div class="social-links d-flex flex-column">
+    <div class="d-flex align-items-center mb-2">
+        <a href="https://www.linkedin.com/in/arun-reddy-0334b824b/" target="_blank" class="icon me-2">
+            <i class="fab fa-linkedin" id="linkedin"></i>
+        </a>
+        <label for="linkedin" class="mb-0">LinkedIn</label>
+    </div>
+    <div class="d-flex align-items-center mb-2">
+        <a href="https://github.com/arunreddy010" target="_blank" class="icon me-2">
+            <i class="fab fa-github" id="github"></i>
+        </a>
+        <label for="github" class="mb-0">GitHub</label>
+    </div>
+    <div class="d-flex align-items-center mb-2">
+        <a href="https://leetcode.com/u/B071uqISdO/" target="_blank" class="icon me-2">
+            <i class="fas fa-code" id="leetcode"></i>
+        </a>
+        <label for="leetcode" class="mb-0">LeetCode</label>
+    </div>
+    <div class="d-flex align-items-center">
+        <a href="mailto:dakreddy10@gmail.com" class="icon me-2">
+            <i class="fas fa-envelope" id="email"></i>
+        </a>
+        <label for="email" class="mb-0">dakreddy10@gmail.com</label>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5 class="animate__animated animate__fadeInUp">My Experience</h5>
+                    <hr>
+                    <p class="animate__animated animate__fadeInUp">Python Full Stack Developer with hands-on experience in web development using Django, HTML, CSS, JavaScript, and MySQL. I have successfully built projects that integrate dynamic front-end designs with robust back-end functionalities.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5 class="animate__animated animate__fadeInUp">Skills</h5>
+                    <hr>
+                    <div class="skill-list">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Django</div>
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">NumPy</div>
+                        <div class="skill-item">Pandas</div>
+                        <div class="skill-item">Matplotlib</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">GitHub</div>
+                    </div>
+                    <p>Currently focusing on enhancing my full-stack development skills and exploring advanced Python libraries like NumPy and Pandas for data manipulation and visualization.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5 class="animate__animated animate__fadeInUp">How I Learn</h5>
+                    <hr>
+                    <p class="animate__animated animate__fadeInUp">I believe in learning by doing. I enjoy building projects from scratch and constantly improving them by integrating new features. My approach is hands-on, breaking problems into smaller tasks and learning new technologies through experimentation.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5 class="animate__animated animate__fadeInUp">My Short-Term Goals</h5>
+                    <hr>
+                    <p class="animate__animated animate__fadeInUp">I'm focused on building more complex full-stack applications using Django and exploring data analysis techniques with Python libraries like NumPy, Pandas, and Matplotlib. I'm also working to strengthen my front-end development skills and gain experience in collaborative projects.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Arun Kumar Reddy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
